@@ -1,13 +1,7 @@
-counter = 0
-  while num != 0
+def countdown(num)
+ while num != 0 
   puts "#{num} SECOND(S)!"
-  counter =+ 1
-  end
-puts "HAPPY NEW YEAR!"
-end
-
-
-
-def countdown
+  num -= 1
+ end
 end
   
